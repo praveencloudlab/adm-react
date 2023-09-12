@@ -18,12 +18,27 @@ Software
 TOC
 -------
 -> intro to components
--> component life cycle
 -> state and props
+-> component life cycle
 -> component communications
 -> forms and validations
 -> routers
 -> HTTP client comminications (axios / fetch)
+
+
+
+java Script
+==============
+
+
+HTML > W3C recaemdation
+Javascript => ES 
+
+			-> ES-5 (old syntax) : every browser  supports
+			-> ES-6 (new syntax) : only few browsers will support
+
+ bable 
+
 
 
 
