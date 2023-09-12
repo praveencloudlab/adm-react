@@ -1,0 +1,34 @@
+React JS
+===========
+-> HTML5 and CSS
+-> Basic understanding of Java script
+-> Basic understanding about web applications
+	-> server and clients
+	-> HTTP status codes
+	-> requst and response objects
+	-> server response like payload
+------------------------------------------
+Software
+-> VS code editor
+-> Node js
+-> chrome browser
+-> mysql/mongo database
+-------------------------------------------
+
+TOC
+-------
+-> intro to components
+-> component life cycle
+-> state and props
+-> component communications
+-> forms and validations
+-> routers
+-> HTTP client comminications (axios / fetch)
+
+
+
+
+
+
+
+
