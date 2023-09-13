@@ -1,0 +1,30 @@
+Components
+============
+1.class components : issue with reusability
+2.functional components : can be re-use any other components
+
+
+ functional components
+ =========================
+
+
+ how many comoonents i can create? 
+ -> as many as you want.
+
+ Nested Components : 2 types
+ ================================
+ A component in the parent component is nested components.
+
+ type1: calling/using from  the same component
+ type2: integrating/using other components
+
+
+
+
+
+
+
+
+
+
+
