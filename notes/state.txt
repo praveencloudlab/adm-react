@@ -1,0 +1,38 @@
+
+
+Life cycle
+============= 
+-> mount   :: loading into browser
+-> update  :: reload loaded componets of a browser with new data
+-> un-mount:: remove component from memory
+
+
+
+
+
+React state and props
+========================
+
+-> props: passing data from paret to child.
+-> state: state means 'data'
+	-> when state data is changed/updated/modified, then component is re-constructed/updated/reloaded with modified data
+
+-> state can be defined with react 'hooks' in functional programing style
+
+	React Hooks
+	==============
+	-> every hook in react is function. they can be reused every where
+	-> every hook in react starts with 'useXXX' where XXX is the name of a hook
+	Ex: useState, useEffect, useContext, useMemo,useSelector .. etc
+
+
+ props: to update/reconstruct/reload child component, then pass parent component state value as 'props' to the child component.
+ when ever there is a change in the parent state value, then props also get uodated. when 'new property' is passed back to the child compoent, then child component UI is reconstructed/reloaded with updated property.
+
+
+
+
+
+
+
+

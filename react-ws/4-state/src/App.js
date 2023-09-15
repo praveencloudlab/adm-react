@@ -27,11 +27,11 @@ const App = () => {
       <button onClick={()=>setGreetMsg('Good Morning')}>Good Morning</button>
       <button onClick={()=>setGreetMsg('Good Noon')}>Good Noon</button>
       <button onClick={()=>setGreetMsg('Good Evening')}>Good Evening</button>
-
+      <button onClick={()=>setGreetMsg('')}>Exit</button>
       <hr/>
 
-
-      <Greet msg={greetMsg}/>
+      {greetMsg? <Greet msg={greetMsg}/>:null}
+     
     </div>
   );
 };
