@@ -1,30 +1,29 @@
-import {useState} from 'react';
+import {useState,useEffect} from 'react';
 
-const BtnGen = ({btnLables}) => {
-
+const BtnGen = ({btnLable,parentFun,reset}) => {
     const[counter,setCounter]=useState(0)
 
-    function f1(btnLable){
-        
-    }
+    //This will call only when parent component clicked on ResetAll button
+    useEffect(()=>{
+        setCounter(0);
+    },[reset])
 
-    function renderButtons(){
-        return btnLables.map(btnLable=>{
-            return(
-                <div className='col-3 text-center mt-4'>
-                    <span>{counter}</span>
-                    <hr/>
-                     <button onClick={()=>setCounter(counter+1)}>{btnLable}</button>
+    function f1(){
+        setCounter(counter+1)
+        parentFun(btnLable);
 
-                </div>
-            )
-        })
     }
     return (
         <div>
 
-            <div className='row'>
-            {renderButtons()}
+            <div className='card mb-3'>
+                <div className='card-body text-center'>
+                    <span className="text-center"><h5>{counter}</h5></span>
+                    <hr/>
+                     <button className='btn btn-primary' onClick={f1}><h3>{btnLable}</h3></button>
+                   
+                </div>
+                    
             </div>
             
             
