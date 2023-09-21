@@ -1,0 +1,29 @@
+React js forms
+=================
+-> basic react js forms
+-> React js libraries for forms
+		-> Formik
+		-> React hook forms
+		-> Redux forms
+
+React hook forms
+==================
+	npm install react-hook-form
+
+
+   List of validation rules supported:
+
+	required
+	min
+	max
+	minLength
+	maxLength
+	pattern
+	validate
+
+	
+
+
+
+
+

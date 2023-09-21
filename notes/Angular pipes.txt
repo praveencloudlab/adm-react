@@ -1,0 +1,17 @@
+Angular pipes
+===============
+-> pipes are used for common data transformations. 2 types
+	1.built in pipes
+	2.custom pipes
+
+	1.built in pipes
+	==================
+	->DatePipe
+	->UpperCasePipe
+	->LowerCasePipe
+	->CurrencyPipe
+	->JSON
+	
+	->DatePipe
+
+
