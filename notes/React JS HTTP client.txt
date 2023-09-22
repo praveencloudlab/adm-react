@@ -1,0 +1,45 @@
+React JS HTTP client
+==========================
+Api servers 
+	-> node js : single thread
+			-> express js framework
+			-> loopback js framework
+	-> spring boot : multi thread
+	-> .Net : multi thred
+	-> JSON server ..etc
+
+-> inorder to fetch data from api servers or post or do any CRUD
+   operations, http client can be used
+
+   types of HTTP clients : 2 types
+   ==================================
+   1.Promise based    :: then ... etc   
+   2.Observable based :: subscribe .. etc
+
+   Http clients
+   --------------
+   -> ajax
+   -> fetch api
+   -> asynch await
+   -> axios .. etc
+
+
+   JSON server
+   ================
+
+  npm i json-server -g
+
+  json-server db.json --watch --port=8080
+
+
+  in react js app, to install axios, use following command.
+  npm install axios
+
+
+
+
+
+
+
+
+
