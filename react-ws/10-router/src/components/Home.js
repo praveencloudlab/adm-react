@@ -5,11 +5,11 @@ import ProductForm from "./ProductForm";
 import Cart from "./Cart";
 import Dashboard from "./Dashboard";
 import NavBar from "./NavBar";
+import ProductDetails from "./ProductDetails";
 
 const Home = () => {
     return (
         <div>
-
 
            <div className="row">
                <div className="col-2">
@@ -20,6 +20,7 @@ const Home = () => {
                    <Routes>
                        <Route path='home' element={<Dashboard/>}/>
                        <Route path='list-products' element={<ProductList/>}/>
+                       <Route path='product-details/:pid' element={<ProductDetails/>}/>
                        <Route path='add-product' element={<ProductForm/>}/>
                        <Route path='cart' element={<Cart/>}/>
                    </Routes>
